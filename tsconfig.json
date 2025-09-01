@@ -1,7 +1,11 @@
 {
-	"extends": "@apify/tsconfig",
 	"compilerOptions": {
-		"outDir": "dist"
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"outDir": "dist",
+		"rootDir": "src",
+		"strict": true,
+		"target": "ES2019"
 	},
 	"include": [
 		"src"
